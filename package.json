@@ -1,0 +1,29 @@
+{
+  "name": "mcp-error-logger",
+  "version": "1.0.0",
+  "description": "MCP tool for centralized error logging and analytics",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "tsc --watch",
+    "test": "npm run build && node dist/index.js --test",
+    "clean": "rm -rf dist"
+  },
+  "keywords": [
+    "mcp",
+    "error",
+    "logging",
+    "analytics"
+  ],
+  "author": "AI Assistant",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.17.3"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0"
+  }
+}
